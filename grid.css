@@ -1,0 +1,30 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(4, 250px);
+    gap: 1em;   /*gap is used to give space between grid columns*/
+}
+
+
+
+
+section:first-of-type{
+    border-radius: 2em 0 2em 0;
+}
+section:last-of-type{
+    border-radius: 0 2em 0 2em;
+}
+section:nth-of-type(odd){
+    border: 5px solid blue;
+    border-radius: 2em 0 2em 0; 
+
+}
+section:nth-of-type(even){
+    border: 5px solid red;
+    border-radius: 0 2em 0 2em;
+}
+
+section :nth-child(even){
+    background-color: #ccc;
+    color: #000;
+}

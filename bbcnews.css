@@ -1,0 +1,218 @@
+body {
+    background-color: rgba(229, 226, 226, 0.471);
+}
+main {
+    background-color: rgba(229, 226, 226, 0.471);
+    
+    margin: auto;
+}
+.sectionone .sectiontwo {
+    width: 97%;
+    margin: auto;
+} 
+#background{
+    background-color: white;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: right;
+    background-color: rgb(250, 250, 250);
+    height: 80px;
+    width: 1280px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* align-items: flex-end; */
+   float: right;
+   }
+#header {
+    background-image: url(./images/bbc-logo-png-transparent.png);
+   background-size: 100px;
+   background-position: inherit;
+   background-repeat: no-repeat;
+  }
+
+
+#header a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+   float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+#header a:hover {
+    border-bottom: 3px solid rgba(39, 39, 197, 0.854);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: rgb(169, 2, 2);
+    height: 80px;
+    width: 1280px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   align-items: flex-end;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+   
+    padding: 5px;
+    margin: 5px;
+}
+
+#navbar a:hover {
+    border-top: 3px solid white;
+}
+.one1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    /* border: 2px solid red; */
+    gap: 20px 10px;
+}
+
+.one1:nth-of-type(1) {
+    grid-area: 2/1/2/2;
+    }
+
+
+.one2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    /* border: 2px solid red; */
+    gap: 20px 10px;
+}
+
+.one2:nth-of-type(2) {
+    grid-area: 2/1/3/2;
+    background-image: url(./images/u\ \(8\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+.numtwo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.95em;
+    line-height: 1.6em;
+    padding-left: 70px;
+}
+.numtwo:hover {
+    text-decoration: underline;
+    color: red;
+}
+#one {
+    line-height: 1.5em;
+    padding-left: 20px;
+    color: grey;
+}
+#one li:hover{
+    color: red;
+    text-decoration: underline;
+}
+#one li{
+    color: rgba(0, 0, 0, 0.873);
+}
+#one p {
+    padding-left: 28px;
+}
+/* end of sectionone styling */
+
+
+.sectiontwo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: repeat(2, 250px);
+    /* border: 2px solid green; */
+    gap: 5px;
+   
+}
+
+.sectiontwo:nth-of-type(1) {
+    grid-area:1/1/2/2 ;
+    background-image: url(./images/u\ \(13\).jpg);
+    background-size: contain;
+
+}
+.sectiontwo:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectiontwo:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectiontwo:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectiontwo:nth-of-type(5) {
+    grid-area: 1/5/2/6;
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: .9em;
+}
+.text:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.sectiontwo a{
+    text-decoration: none;
+}
+/* the end of sectiontwo styling */
+
+
+.sectionthree {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-areas: 
+    'alphaone alphatwo alphatwo alphatwo alphathree alphafour'
+    'alphaone alphatwo alphatwo alphatwo alphathree alphafour'
+    'alphaone alphatwo alphatwo alphatwo alphathree alphafour';
+}
+.sectionthree a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.sectionthree a:hover {
+    text-decoration: underline;
+    color: red;
+   }
+.alphaone tt{
+    font-weight: 700;
+}
+
+.alphaone{
+    grid-area: alphaone;
+    
+}
+.alphaone a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.alphatwo {
+    grid-area: alphatwo;
+    max-height: 300px;
+    max-width: 500px;
+}
+.alphathree {
+    grid-area: alphathree;
+}
+.alphafour {
+    grid-area: alphafour;
+}

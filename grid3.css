@@ -1,0 +1,551 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 20px 10px;
+    
+}
+
+section{
+    border: 3px solid;
+}
+
+section:nth-of-type(1) {
+    /* grid-column: 1/4;
+    grid-row: 1/2; */
+    grid-area: 1/1/2/4;
+}
+section:nth-of-type(2) {
+    grid-area: 3/1/4/3;
+}
+section:nth-of-type(3) {
+    grid-area: 2/3/4/4;
+}
+section:nth-of-type(4) {
+    grid-area: 2/1/3/2;
+}
+section:nth-of-type(5) {
+    grid-area: 4/1/4/5;
+}
+section:nth-of-type(6) {
+    grid-area:2/2/3/3 ;
+}
+
+
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 100px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectiontwo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr,);
+    grid-template-rows: repeat(5, 250px);
+    gap: 10px 10px;
+    }
+
+.sectiontwo section {
+    border: 2px solid black;
+}
+
+.sectiontwo section:nth-of-type(1) {
+    grid-area: 1/1/2/2;
+}
+.sectiontwo section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectiontwo section:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectiontwo section:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectiontwo section:nth-of-type(5) {
+    grid-area: 1/5/2/6;
+}
+.sectiontwo section:nth-of-type(6) {
+    grid-area: 2/1/3/6;
+}
+.sectiontwo section:nth-of-type(7) {
+    grid-area: 3/1/6/3;
+}
+.sectiontwo section:nth-of-type(8) {
+    grid-area: 3/3/4/4;
+}
+.sectiontwo section:nth-of-type(9) {
+    grid-area: 4/3/5/4;
+}
+.sectiontwo section:nth-of-type(10) {
+    grid-area: 3/4/4/4;
+}
+.sectiontwo section:nth-of-type(11) {
+    grid-area: 3/5/4/6;
+}
+.sectiontwo section:nth-of-type(12) {
+    grid-area: 5/3/6/4;
+}
+.sectiontwo section:nth-of-type(13) {
+    grid-area: 5/4/6/5;
+}
+.sectiontwo section:nth-of-type(14) {
+    grid-area: 5/5/6/6;
+}
+/* the end of sectiontwo styling */
+
+.sectionthree{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr,);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionthree section {
+    border: 2px blue solid;
+}
+
+.sectionthree section:nth-of-type(1) {
+    grid-area: 1/1/2/2;
+}
+.sectionthree section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectionthree section:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectionthree section:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectionthree section:nth-of-type(5) {
+    grid-area: 1/5/2/6;
+}
+/* the end of styling sectionthree */
+
+.sectionfour{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr,);
+    grid-template-rows: repeat(2, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionfour section {
+    border: 1px brown solid;
+}
+
+.sectionfour section:nth-of-type(1) {
+    grid-area:1/1/3/2;
+}
+.sectionfour section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectionfour section:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectionfour section:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectionfour section:nth-of-type(5) {
+    grid-area: 2/2/3/3;
+}
+.sectionfour section:nth-of-type(6) {
+    grid-area: 2/3/3/4;
+}
+.sectionfour section:nth-of-type(7) {
+    grid-area: 2/4/3/5;
+}
+/* the end of sectionfour styling */
+
+.sectionfive{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr,);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionfive section {
+    border: 1px rgb(50, 143, 3) solid;
+}
+
+.sectionfive section:nth-of-type(1) {
+    grid-area: 1/1/2/2;
+}
+.sectionfive section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+/* the end of sectionfive styling */
+
+.sectionsix{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr,);
+    grid-template-rows: repeat(2, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionsix section {
+    border: 1px goldenrod solid;
+}
+
+.sectionsix section:nth-of-type(1) {
+    grid-area: 1/1/3/2;
+}
+.sectionsix section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectionsix section:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectionsix section:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectionsix section:nth-of-type(5) {
+    grid-area: 2/2/3/3;
+}
+.sectionsix section:nth-of-type(6) {
+    grid-area: 2/3/3/4;
+}
+.sectionsix section:nth-of-type(7) {
+    grid-area: 2/4/3/5;
+}
+/* the end of sectionsix styling */
+
+
+.sectionseven{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr,);
+    grid-template-rows: repeat(2, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionseven section {
+    border: 2px purple solid;
+}
+
+.sectionseven section:nth-of-type(1) {
+    grid-area: 1/1/3/2;
+}
+.sectionseven section:nth-of-type(2) {
+    grid-area: 1/2/2/3;
+}
+.sectionseven section:nth-of-type(3) {
+    grid-area: 1/3/2/4;
+}
+.sectionseven section:nth-of-type(4) {
+    grid-area: 1/4/2/5;
+}
+.sectionseven section:nth-of-type(5) {
+    grid-area: 2/2/3/3;
+}
+.sectionseven section:nth-of-type(6) {
+    grid-area: 2/3/3/4;
+}
+.sectionseven section:nth-of-type(7) {
+    grid-area: 2/4/3/5;
+}
+/* the end of sectionseven styling */
+
+
+.sectioneight{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr,);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px 10px;
+    }
+
+.sectioneight section {
+    border: 2px palevioletred solid;
+}
+
+.sectioneight section:nth-of-type(1) {
+    grid-area: 1/1/2/2;
+}
+/* the end of sectioneight styling */
+
+
+.sectionnine{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr,);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px 10px;
+    }
+
+.sectionnine section {
+    border: 2px blueviolet solid;
+}
+
+.sectionnine section:nth-of-type(1) {
+    grid-area: 1/1/2/2;
+}
+/* the end of sectionnine styling */
+
+
+
+
+
+
+<div class="sectiontwo">
+<section>
+    <h2 class="alpha1">Chapter 01</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ipsa iure, dolorum assumenda laudantium quasi mollitia nostrum possimus. Inventore dolore dignissimos vero aperiam modi voluptas beatae laborum minima dolores quos.</p>
+</section>
+<section>
+    <h2 class="alpha2">Chapter 02</h2>
+    <p>Quasi, dicta iste expedita aliquam, corporis sed minima facere quas quisquam doloribus sapiente commodi eius voluptate possimus ad itaque. Reiciendis sint nisi, repellat qui tenetur ipsa ex voluptate tempora aliquid?</p>
+</section>
+<section>
+    <h2 class="alpha3">Chapter 03</h2>
+    <p>Ipsam at excepturi possimus a perferendis. Porro dolor ea atque reprehenderit, dolorum qui. Tempore minus culpa excepturi, illum inventore magnam ipsa nesciunt velit sequi, rerum quos amet adipisci similique! Hic.</p>
+</section>
+<section>
+    <h2 class="alpha4">Chapter 04</h2>
+    <p>Culpa necessitatibus facere harum molestias enim expedita, porro quidem, nobis excepturi provident nulla? Deleniti quisquam exercitationem doloribus eum aliquam culpa praesentium cupiditate quas molestias, cumque non, placeat, sit eaque nemo.</p>
+</section>
+<section>
+    <h2 class="alpha5">Chapter 05</h2>
+    <p>Blanditiis provident dolore eius sunt nemo tempora itaque, cupiditate vel similique amet harum consequatur, ab sed earum non, soluta assumenda voluptate cum aut deleniti architecto in. Qui dolore ipsam adipisci.</p>
+</section>
+<section>
+    <h2 class="alpha6">Chapter 06</h2>
+    <p>Debitis velit adipisci ut atque numquam, aspernatur laboriosam iure dicta, est, fuga explicabo perferendis repellat. Tempore, eveniet repellat, exercitationem ab suscipit quisquam provident pariatur nobis facere voluptatibus facilis praesentium eum?</p>
+</section>
+<section>
+    <h2 class="alpha7">Chapter 07</h2>
+    <p>Dolore blanditiis est dolorum veritatis. Nostrum ab, vero voluptatibus beatae cum officiis porro tenetur, rem adipisci, accusamus impedit maiores natus temporibus. Commodi similique quisquam quibusdam cumque, laborum dolorem animi dolor!</p>
+</section>
+<section>
+    <h2 class="alpha8">Chapter 08</h2>
+    <p>Dignissimos consequuntur accusantium sapiente dolorum, mollitia saepe cum repellendus quae quam unde a suscipit corporis aut expedita aperiam eveniet odio porro ex, incidunt asperiores tempora ea recusandae? Nihil, cumque aspernatur.</p>
+</section>
+<section>
+    <h2 class="alpha9">Chapter 09</h2>
+    <p>Distinctio officiis beatae molestiae magnam ipsam perspiciatis labore rerum quos eius doloremque. Odit, pariatur? Ducimus temporibus dolores placeat modi rem quo architecto necessitatibus blanditiis voluptatibus dolor! Culpa quaerat aliquid tempore.</p>
+</section>
+<section>
+    <h2 class="alpha10">Chapter 010</h2>
+    <p>Quibusdam voluptatum quod culpa similique in dolore excepturi laudantium eius deserunt facilis? Consequuntur accusamus quos maiores, vitae ipsum beatae voluptas officia cumque. Sequi quae error corrupti perspiciatis rerum dolorem labore!</p>
+</section>
+<section>
+    <h2 class="alpha11">Chapter 011</h2>
+    <p>Sed non exercitationem nobis? Vero maiores veritatis ratione esse dicta pariatur officia ipsum hic at, accusamus optio ab ipsa minima adipisci dolor? Porro maiores voluptates, ab natus aliquid accusamus veritatis.</p>
+</section>
+<section>
+    <h2 class="alpha12">Chapter 012</h2>
+    <p>Aliquam velit quis consequuntur ut necessitatibus officia accusamus alias illo adipisci corporis, ullam, beatae laudantium deleniti culpa nulla dolor, magni a minima fugit assumenda placeat consectetur maxime corrupti natus! Voluptatibus!</p>
+</section>
+<section>
+    <h2 class="alpha13">Chapter 013</h2>
+    <p>Voluptatum dolorem eaque numquam veritatis, voluptas assumenda possimus non architecto ducimus dicta voluptatem repudiandae optio facere ipsum id fugit libero. Quasi, natus quo pariatur qui voluptates officia tempore numquam eos?</p>
+</section>
+<section>
+    <h2 class="alpha14">Chapter 014</h2>
+    <p>Itaque architecto inventore natus provident amet, eaque delectus magni impedit labore et dicta aperiam id sapiente minus nostrum aliquid possimus unde, nisi non numquam molestiae eligendi ad totam commodi. Voluptatibus.</p>
+</section>
+</div>
+<hr>
+<div class="sectionthree">
+<section>
+    <h2 id="omega1">Chapter 01</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum ipsam quam provident quidem ut cumque, adipisci officia rem excepturi, sint blanditiis deserunt pariatur voluptatem quibusdam. Fugiat blanditiis soluta eius?</p>
+</section>
+<section>
+    <h2 id="omega2">Chapter 02</h2>
+    <p>Ut inventore saepe quidem voluptates ad corporis, doloribus perspiciatis quas officia molestiae labore officiis temporibus dolorum itaque. Temporibus explicabo ratione totam doloremque quas sequi laborum alias obcaecati harum, corrupti necessitatibus?</p>
+</section>
+<section>
+    <h2 id="omega3">Chapter 03</h2>
+    <p>Vero, atque a nobis, asperiores voluptatibus nulla quod ratione pariatur ea facere illum? Magni, expedita sit. Officia illum, placeat, saepe ipsum quaerat iste reprehenderit nesciunt repellat autem harum obcaecati quisquam?</p>
+</section>
+<section>
+    <h2 id="omega4">Chapter 04</h2>
+    <p>Veritatis necessitatibus consectetur ut tempore sequi ipsum dolor sunt! Enim voluptas vitae rem qui facere dolorem voluptatum facilis dolorum natus porro eius, non, impedit nesciunt tenetur eos maxime, tempore dicta?</p>
+</section>
+<section>
+    <h2 id="omega5">Chapter 05</h2>
+    <p>Consequuntur quis doloremque qui suscipit similique voluptatibus minus assumenda! Minus suscipit libero expedita obcaecati unde aperiam hic eos vitae nobis dignissimos ab deleniti mollitia non, nostrum laboriosam consequatur voluptates cum?</p>
+</section>
+</div>
+<hr>
+<div class="sectionfour">
+<section>
+    <h2 id="beta1">Chapter 01</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi quis adipisci odit quod corporis similique aliquam doloremque impedit quibusdam doloribus, laborum voluptate quidem vitae eligendi deserunt distinctio veniam earum.</p>
+</section>
+<section>
+    <h2 id="beta2">Chapter 02</h2>
+    <p>Perspiciatis omnis sapiente blanditiis quod ipsa architecto libero voluptates! Voluptate, neque? Qui tenetur iste, odit officia laudantium, vel iure provident molestiae, similique incidunt sunt voluptas unde non veniam libero quis.</p>
+</section>
+<section>
+    <h2 id="beta3">Chapter 03</h2>
+    <p>Iure fuga dolor iusto inventore labore nostrum enim cumque sed! Voluptatum sint labore reiciendis iste earum neque iusto doloribus aperiam mollitia assumenda. Esse quisquam amet distinctio id officia ex suscipit!</p>
+</section>
+<section>
+    <h2 id="beta4">Chapter 04</h2>
+    <p>Ipsam, earum suscipit? Quas praesentium voluptate sed aliquid ab repellat, ex nesciunt similique tempore necessitatibus odio temporibus cumque quisquam, minima laudantium sint doloribus libero harum vero laboriosam. Enim, aperiam odit.</p>
+</section>
+<section>
+    <h2 id="beta5">Chapter 05</h2>
+    <p>Neque dolore ipsam inventore. Totam perspiciatis delectus veniam minima recusandae? Nesciunt alias ab quis nobis sequi vel eos est debitis, aliquid mollitia vero deleniti, ut placeat, quibusdam sunt optio quod.</p>
+</section>
+<section>
+    <h2 id="beta6">Chapter 06</h2>
+    <p>Consectetur numquam amet aspernatur, vero molestiae quod minima eveniet accusamus nobis saepe dicta doloremque optio alias fugit accusantium magnam quidem repellendus tenetur magni culpa cumque ea facere doloribus? Perspiciatis, eaque.</p>
+</section>
+<section>
+    <h2 id="beta7">Chapter 07</h2>
+    <p>Ipsa eligendi, quae veritatis, nisi dolore commodi accusantium vero optio et cupiditate officia repellendus? Fugit doloremque magnam eligendi culpa? Quis labore culpa omnis, doloribus recusandae rerum! Consectetur consequatur assumenda inventore!</p>
+</section>
+</div>
+<hr>
+<div class="sectionfive">
+<section>
+    <h2 id="gamma">Chapter 01</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit cupiditate recusandae ipsam vel dignissimos, voluptates quae sunt error nisi quos, quis hic eos ad quibusdam. Esse quos quidem corrupti!</p>
+</section>
+<section>
+    <h2 id="gamma">Chapter 02</h2>
+    <p>Ipsam dolores odio magnam fuga aut commodi minus quos laborum quisquam, aliquid tempora beatae consequatur qui. Incidunt recusandae nesciunt ullam blanditiis? Earum numquam ratione nisi nemo quae amet doloribus incidunt?</p>
+</section>
+</div>
+<hr>
+<div class="sectionsix">
+<section>
+    <h2 id="dite1">Chapter 01</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ad deleniti sint corrupti ullam, quos tempore. Cum ullam nihil quos recusandae, quidem vero ut libero eveniet quas consequatur at velit?</p>
+</section>
+<section>
+    <h2 id="dite2">Chapter 02</h2>
+    <p>Illo aliquam hic porro similique labore cupiditate iusto earum veritatis itaque, asperiores minus dolorem non maiores numquam quo? Laboriosam quas voluptas numquam omnis vel rem, architecto magnam esse sit quam.</p>
+</section>
+<section>
+    <h2 id="dite3">Chapter 03</h2>
+    <p>Optio accusantium minima nulla itaque asperiores necessitatibus, aliquid, aliquam aspernatur nemo officiis expedita error quisquam ducimus nobis recusandae voluptatum tempore ipsam natus exercitationem impedit, iure iusto at nesciunt! Rerum, officiis.</p>
+</section>
+<section>
+    <h2 id="dite4">Chapter 04</h2>
+    <p>Reiciendis distinctio sapiente adipisci! Deserunt quod quis vero, iusto architecto unde similique iure repellat iste incidunt quidem excepturi recusandae, consequuntur provident asperiores cum quam tempore adipisci temporibus nemo harum sequi.</p>
+</section>
+<section>
+    <h2 id="dite5">Chapter 05</h2>
+    <p>Mollitia alias, eaque, in quo vel magnam nesciunt voluptas odit perferendis pariatur fugiat ad? Magnam voluptatum nemo maiores fugiat, illum quas reiciendis deserunt repellat, veniam enim impedit, suscipit ex architecto?</p>
+</section>
+<section>
+    <h2 id="dite6">Chapter 06</h2>
+    <p>Sapiente reiciendis possimus eum illum quos, iste, minima aspernatur dicta perspiciatis deserunt molestias id voluptatum dignissimos? Dolorem sapiente iste inventore impedit optio maxime. Aperiam, non at omnis quam perferendis maxime!</p>
+</section>
+<section>
+    <h2 id="dite7">Chapter 07</h2>
+    <p>Esse, saepe alias dignissimos omnis assumenda similique, explicabo officia quidem necessitatibus veritatis adipisci debitis atque numquam iure possimus optio at quos, impedit magnam repellat. Animi odio eum omnis quia facere!</p>
+</section>
+</div>
+<hr>
+<div class="sectionseven">
+<section>
+    <h2 id="bite1">Chapter 01</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia corporis, praesentium aliquid incidunt perferendis iusto quod earum facere aut fugit assumenda quia ea obcaecati atque vitae libero quibusdam officiis impedit!</p>
+</section>
+<section>
+    <h2 id="bite2">Chapter 02</h2>
+    <p>Alias amet sunt cum, mollitia qui aut corrupti aliquam iusto velit voluptates et eligendi eos corporis, cumque minima! Labore, quia maiores excepturi in itaque atque illum. Laudantium iste eius fuga!</p>
+</section>
+<section>
+    <h2 id="bite3">Chapter 03</h2>
+    <p>Quo repudiandae a, vel reiciendis maiores, iste quibusdam nam perferendis eius eligendi possimus adipisci quaerat porro dolorem cumque consectetur consequatur suscipit totam. Dolor, ipsa nobis. Ipsum placeat amet earum incidunt!</p>
+</section>
+<section>
+    <h2 id="bite4">Chapter 04</h2>
+    <p>Magnam aperiam autem ut assumenda qui eligendi? Omnis aspernatur mollitia, ducimus sed accusantium maiores temporibus corrupti facere deleniti at, dolorem provident itaque. Necessitatibus autem quo sint aut accusamus iste consectetur.</p>
+</section>
+<section>
+    <h2 id="bite5">Chapter 05</h2>
+    <p>Sint velit accusamus corrupti architecto? Omnis praesentium repellat animi perferendis, quo provident? Enim exercitationem vero nesciunt dolorum quos. Eaque, debitis! Optio quia illum, consequuntur exercitationem distinctio quod omnis veritatis eveniet?</p>
+</section>
+<section>
+    <h2 id="bite6">Chapter 06</h2>
+    <p>Tempora aliquid beatae veniam unde nostrum cupiditate ex maiores nulla dicta porro. Praesentium inventore eaque fugit voluptas debitis nostrum fuga saepe sequi cupiditate placeat, ipsum consequuntur rerum maxime neque in.</p>
+</section>
+<section>
+    <h2 id="bite7">Chapter 07</h2>
+    <p>Praesentium hic sequi exercitationem ex placeat quasi voluptate necessitatibus vitae! Aliquam distinctio totam quas quisquam, tempora, nam atque, ipsum assumenda nisi minus repudiandae adipisci maiores fugiat sapiente porro. Tempore, tempora!</p>
+</section>
+</div>
+<hr>
+<div class="sectioneight">
+<section>
+    <h2 id="bite">Chapter 01</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo blanditiis itaque quasi deserunt, assumenda quo iusto nemo fuga molestias ut provident architecto ratione nostrum, perferendis placeat, dolorem ad enim sunt.</p>
+</section>
+</div>
+<hr>
+<div class="sectionnine">
+<section>
+    <h2 id="bite">Chapter 01</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda, maiores fugit repellat, vel ex autem culpa aliquid dignissimos debitis voluptatem. Quae, ab id? Labore, unde. Laudantium voluptate aut eaque?</p>
+</section>
+</div>
+
+
+
+
+
+
+.sectionthree:nth-of-type(4) {
+    grid-area: 2/1/3/2;
+}
+.sectionthree:nth-of-type(5) {
+    grid-area: 2/2/3/3;
+}
+.sectionthree:nth-of-type(6) {
+    grid-area: 2/3/3/4;
+}
+.sectionthree:nth-of-type(7) {
+    grid-area: 2/4/3/5;
+}
+
+
+
+<section id="alpha4">
+<a target="_blank" href="./images/u (14).jpg">
+    <img src="./images/u (14).jpg" alt="mm" width="260" height="150">
+    <br>
+    <span class="text">Biden: This is a very and strong  <br> text innit lorem ipsum ipsumnh <br> how va till</span>
+</section>
+<section id="alpha5">
+<a target="_blank" href="./images/u (14).jpg">
+    <img src="./images/u (14).jpg" alt="mm" width="260" height="150">
+    <br>
+    <span class="text">Biden: This is a very and strong  <br> text innit lorem ipsum ipsumnh <br> how va till</span>
+</section>
+<section id="alpha6">
+<a target="_blank" href="./images/u (14).jpg">
+    <img src="./images/u (14).jpg" alt="mm" width="260" height="150">
+    <br>
+    <span class="text">Biden: This is a very and strong  <br> text innit lorem ipsum ipsumnh <br> how va till</span>
+</section>
+<section id="alpha7">
+<a target="_blank" href="./images/u (14).jpg">
+    <img src="./images/u (14).jpg" alt="mm" width="260" height="150">
+    <br>
+    <span class="text">Biden: This is a very and strong  <br> text innit lorem ipsum ipsumnh <br> how va till</span>
+</section>
