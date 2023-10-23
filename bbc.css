@@ -52,7 +52,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 150px);
     gap: 8px 15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .section section:nth-of-type(1){
     grid-area: 1/1/2/4;
@@ -124,7 +124,7 @@
     grid-template-columns: repeat(4, 1fr, 200px);
     grid-template-rows: repeat(10, 200px);
     gap: 8px 15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
    }
 
 .sectionii section:nth-of-type(1) {
@@ -242,7 +242,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 450px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
 }
 .sectioniii section:nth-of-type(1) {
     grid-area: 1/1/2/2;
@@ -255,7 +255,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 200px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
     gap: 8px 15px;
 }
 
@@ -308,9 +308,9 @@
 .sectionv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 200px);
+    grid-template-rows: repeat(6, 250px);
     gap: 8px 15px;
-    border: 2px solid black;  
+    /* border: 2px solid black;   */
 }
 
 .sectionv section:nth-of-type(1) {
@@ -388,7 +388,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 450px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
 }
 .sectionvi section:nth-of-type(1) {
 
@@ -402,18 +402,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 250px);
-    border: 3px solid black; 
+    /* border: 3px solid black;  */
     gap: 8px 15px;     
 }
 
 .sectionvii section:nth-of-type(1) {
     grid-area: 1/1/2/2;
-    padding-top: 160px;
+    padding-top: 210px;
     margin-left: 10px;
 }
 .sectionvii section:nth-of-type(2) {
    grid-area: 1/2/2/3;
-   padding-top: 160px;
+   padding-top: 210px;
     margin-left: 10px;
    
 }
@@ -446,7 +446,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 200px);
-    border: 3px solid black;  
+    /* border: 3px solid black;   */
     gap: 8px 15px;  
 }
 
@@ -495,7 +495,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 200px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
 }
 
 .sectionix section:nth-of-type(1){
@@ -506,7 +506,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 200px);
-    border: 3px solid black;  
+    /* border: 3px solid black;   */
     gap: 8px 15px;
 }
 
@@ -584,7 +584,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 350px);
-    border: 3px solid black;
+    /* border: 3px solid black; */
     gap: 8px 15px;  
 }
 
@@ -616,7 +616,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 350px);
-    border: 3px solid black; 
+    /* border: 3px solid black;  */
     gap: 8px 15px;  
 }
 
@@ -643,7 +643,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 350px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
     gap: 8px 15px;
 }
 
@@ -680,7 +680,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 400px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
 }
 
 .sectionxiv section:nth-of-type(1) {
@@ -691,9 +691,110 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 400px);
-    border: 3px solid black;   
+    /* border: 3px solid black;    */
+    background-color:  rgba(67, 65, 65, 0.92);
 }
 
 .sectionxv section:nth-of-type(1) {
     grid-area: 1/1/2/2;
+}
+
+.gg{
+    border-left: 4px solid green;
+}
+.ggg {
+    border-left: 4px solid blue; 
+}
+.gggg {
+    border-left: 4px solid yellow;
+}
+.g5 {
+    border-left: 4px solid purple;
+}
+.g4 {
+    border-left: 4px solid yellow;
+}
+.g3 {
+    border-left: 4px solid red;
+}
+
+.htt{
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid red;
+}
+.hti {
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid green;
+}
+.htii {
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid purple;
+}
+.africa {
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid red;
+}
+.ti {
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid lime;
+}
+
+.till {
+    padding-top: 50px;
+    border: none;
+}
+.ttf{
+    font-size: small;
+    border-left: 3px solid purple;
+    color: rgba(67, 65, 65, 0.92);
+   
+}
+.ttfi{
+    font-size: small;
+    border-left: 3px solid lime;
+    color: rgba(67, 65, 65, 0.92);
+    
+}
+.ttp {
+   
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid red;
+}
+.ttr {
+    font-size: small;
+    color: rgba(67, 65, 65, 0.92);
+    border-left: 3px solid yellow;
+}
+#ttr {
+    font-weight: 600;
+}
+.alpha {
+    font-size: large;
+}
+.trt{
+    font-size: larger;
+}
+.trrt{
+    font-size: larger;
+    
+}
+#ad {
+    font-size: small;
+    margin-left: 270px;
+    color: rgba(67, 65, 65, 0.92)
+}
+#ad1{
+   font-size: small;
+   color: rgba(67, 65, 65, 0.92);
+   text-align: right;
+   margin-right: 30px;
+   }
+#numm{
+    border-left: 3px solid green;
 }
